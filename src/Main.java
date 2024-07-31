@@ -7,11 +7,11 @@ public class Main {
         int b = 10;
 
         //Adunare
-        int sum = a+b;
+        int sum = a + b;
         System.out.println("Adunare:" + sum);
 
         //Impartire
-        int Impartire = a/b;
+        int Impartire = a / b;
         System.out.println("Impartire:" + Impartire);
 
         //Tema Lab 9
@@ -45,13 +45,5 @@ public class Main {
         float n = 3;
         float result4 = ((g + (h / i * j) - m)) % n;
         System.out.println("Rezultat la d:" + result4);
-
-
-
-
-
-
-
-
     }
 }
