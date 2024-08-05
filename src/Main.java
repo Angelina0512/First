@@ -1,8 +1,37 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello");
-        System.out.println("Angi");
+    public static void main(String[] args){
 
+        sum(10, 20);
+        sum(1, 100);
+        sum(9, -3);
+        devide_multiply(17, 8, 2);
+        devide_multiply(1407189, 483, 594);
+        multiply(4726, 46);
+        multiply(976, 27);
+
+    }
+public static int sum(int first, int second){
+        int result = first + second;
+        System.out.println("Adunarea dintre " + first + " si " + second + " este: " + result);
+    return result;
+}
+
+public static float devide_multiply(float first, float second, float third){
+        float result = first / second * third;
+        System.out.println("Rezultatul dintre " + first + " impartit la " + second + " si inmultit cu " + third + " este: " + result);
+        return result;
+}
+public static float multiply(float first, float second){
+       float result = first * second;
+       System.out.println("Rezultatul inmultirii dintre " + first + " si " + second + " este: " + result);
+       return result;
+}
+}
+
+
+
+
+     /*   public static void lab(){
         int a = 100;
         int b = 10;
 
@@ -16,6 +45,7 @@ public class Main {
 
         //Tema Lab 9
         //a.
+        System.out.println("a.");
         int x = -5;
         int y = 8;
         int z = 6;
@@ -23,12 +53,14 @@ public class Main {
         System.out.println("Rezultat pentru a:" + result1);
 
         //b.
+        System.out.println("b.");
         int k = 55;
         int l = 9;
         int result2 = (k + l) % 9;
         System.out.println("Rezultat la b:" + result2);
 
         //c.
+        System.out.println("c.");
         float c = 20;
         float d = -3;
         float e = 5;
@@ -37,6 +69,7 @@ public class Main {
         System.out.println("Rezultat la c:" + result3);
 
         //d. 5 + 15 / 3 * 2 - 8 % 3
+        System.out.println("d.");
         float g = 5;
         float h = 15;
         float i = 3;
@@ -45,5 +78,15 @@ public class Main {
         float n = 3;
         float result4 = ((g + (h / i * j) - m)) % n;
         System.out.println("Rezultat la d:" + result4);
-    }
-}
+
+        //test
+        System.out.println("random");
+        int v = 5;
+        int q = 10;
+        if (q - 2 * v < 0)
+            System.out.println("True");
+        if (q - 2 * v > 0)
+            System.out.println("False");
+        else
+            System.out.println("Nu merge");
+    }*/
