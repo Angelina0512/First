@@ -1,32 +1,34 @@
 public class Main {
+
+
     public static void main(String[] args){
 
-        sum(10, 20);
-        sum(1, 100);
-        sum(9, -3);
-        devide_multiply(17, 8, 2);
-        devide_multiply(1407189, 483, 594);
-        multiply(4726, 46);
-        multiply(976, 27);
+        Nume nume = new Nume();
+        String numelemeu = nume.nume();
+
+
+
+
+
+
+
+
+
+
+        /*Calculator calc = new Calculator();
+
+        calc.sum(10, 20);
+        calc.sum(1, 100);
+        calc.sum(9, -3);
+        calc.devide_multiply(17, 8, 2);
+        calc.devide_multiply(1407189, 483, 594);
+        calc.multiply(4726, 46);
+        calc.multiply(976, 27);*/
 
     }
-public static int sum(int first, int second){
-        int result = first + second;
-        System.out.println("Adunarea dintre " + first + " si " + second + " este: " + result);
-    return result;
+
 }
 
-public static float devide_multiply(float first, float second, float third){
-        float result = first / second * third;
-        System.out.println("Rezultatul dintre " + first + " impartit la " + second + " si inmultit cu " + third + " este: " + result);
-        return result;
-}
-public static float multiply(float first, float second){
-       float result = first * second;
-       System.out.println("Rezultatul inmultirii dintre " + first + " si " + second + " este: " + result);
-       return result;
-}
-}
 
 
 
