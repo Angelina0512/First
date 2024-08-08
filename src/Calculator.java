@@ -30,4 +30,44 @@ public class Calculator {
     return result;
     }
 
-}
+    public float inchi_metru(float inch){
+        float result = inch / 39.37f;
+        System.out.println("Conversia de la " + inch + " la este " + result + " metri. ");
+        return result;
+    }
+
+    public float vms(float metri, float secunde){
+
+        float result_vms = metri / secunde;
+        System.out.println("Ai mers cu " + result_vms + " metri pe secunda.");
+        return result_vms;
+
+    }
+
+    public float vkmo(float metri, float ore){
+
+        float result_vkmo = (metri / 1000f) / ore;
+        System.out.println("Ai mers cu " + result_vkmo + " kilometri pe ora.");
+        return result_vkmo;
+    }
+
+    public float vmo(float metri, float minute, float ore){
+        float result_vmo = (metri / 1609f) / ore;
+
+        if (minute >= 1 ) {
+            float result_vmo_min = (metri / 1609f) / (minute / 60);
+            System.out.println("Daca ai parcurs " + metri + " metri in " + minute + " minute ai mers cu " + result_vmo_min +
+                    " mile pe ora.");
+            return result_vmo_min;
+
+        }
+
+        else
+            System.out.println("Daca ai parcurs " + metri + " metri in " + ore + " ore ai mers cu " + result_vmo +
+                    " mile pe ora.");
+            return result_vmo;
+
+
+        }
+
+    }

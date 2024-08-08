@@ -14,9 +14,11 @@ public class tema_10 {
 
 
         calc.celsius_farenheit(90);
-        calc.celsius_farenheit(1432);
-        calc.celsius_farenheit(4343);
-        calc.celsius_farenheit(105);
+
+        calc.inchi_metru(4736);
+
+        calc.vmo(400, 29,0);
+        calc.vmo(3846242,0,8);
 
 
     }
