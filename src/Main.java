@@ -9,6 +9,14 @@ public class Main {
         String numelemeu = nume.nume();
 
 
+        LogicalOperators op = new LogicalOperators();
+
+
+        System.out.println(op.Snow(6));
+        System.out.println(op.isNumberEven(103));
+        System.out.println(op.isEligibleToVote(17));
+        System.out.println(op.BiggestNumber(3f,3f,3f));
+
 
 
 
