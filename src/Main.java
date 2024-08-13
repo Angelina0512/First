@@ -18,11 +18,7 @@ public class Main {
         System.out.println(op.BiggestNumber(3f,3f,3f));
 
 
-
-
-
-
-
+        System.out.println(op.sumAndAverage());
 
 
 

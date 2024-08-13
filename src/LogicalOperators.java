@@ -57,6 +57,16 @@ public class LogicalOperators {
         } else return 0;
 
     }
+
+
+    public float sumAndAverage(){
+        int sum = 0;
+        for(int i = 1; i <= 100; i ++){
+            sum += i;
+        }
+        float average = sum/100f;
+        return average;
+    }
 }
 
 
